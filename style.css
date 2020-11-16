@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+    transition: .27s;
+}
+
+
+#header{
+    background-color: #345356;
+    border-bottom: 5px solid  rgb(20, 240, 155);
+
+
+}
+
+.container{
+    width:70%;
+    margin:auto;
+}
+
+#header h1{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    font-size: 23px;
+    display: inline-block;
+    
+   
+}
+
+#header .logo{
+    color: rgb(20, 240, 155);
+    font-size: 52px;
+
+}
+
+.navbar{
+    float: right;
+}
+
+
+.navbar li {
+    display: inline-block;
+   
+}
+
+.navbar li ,a{
+    text-decoration:none;
+    padding: 49px 0 15px 15px;
+    color: #fff;
+    font-family: serif ;
+    
+
+}
+
+a:hover{
+    color: rgb(20, 240, 155);
+
+}
+
+#banner{
+    background-image: url(./img-png/SLOT35-Q1_banner_desktop_970x300px_11-04-2019.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    color: #fff;
+    text-align:center;  
+    font-family:sans-serif;
+
+
+
+}
+#banner, h1{
+    font-size: 40px;
+    
+    padding-top:30px;
+    text-transform: uppercase;
+}
+
+
+#newsletter{
+border-top:5px solid rgb(20, 240, 155) ;
+box-shadow: rgba(0, 0, 0, 0.5);
+background-color:#345356 ;
+padding:20px 0;
+font-family: sans-serif;
+display: inline-block;
+width: 100%;
+
+}
+
+#newsletter .left{
+    float: left;
+}
+#newsletter .right{
+    float:right;
+}
+
+#newsletter input{
+    padding:6.5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.button{
+    padding: 7px 15px;
+    border: none;
+    background-color:rgb(20, 240, 155);
+    color: #fff;
+    margin-left:15px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color:#3abcd2 ;
+    cursor: pointer;
+    
+}
+
+
+.box{
+    width:33.3%;
+    float: left;
+    text-align:center;
+    font-family: sans-serif;
+
+}
+
+.box img{
+    max-width: 100%;
+    width: 200px;
+}
+
+#xizmat-turlari{
+    padding:20px 0;
+}
+
+.clr{
+    clear: both;
+}
+
+#footer{
+    padding: 30px 0;
+    text-align:center;
+    background-color:#345356 ;
+    color:#fff;
+    margin-top:30px;
+    border-top: solid 1px;
+}
+
+.main-content{
+    width: 65%;
+    float: left;
+}
+
+
+.sidebar{
+    width: 30%;
+    float: right;
+}
+
+#about-us{
+    margin: 40px 0 ;
+    font-family: sans-serif;
+}
+
+.bg-dark{
+    background-color: #345356;
+    color:#fff;
+    padding: 15px;
+    border: 1px solid #333;
+    box-shadow: 0 15px 20px rgba(3, 3, 2, .5);
+    
+}
+
+.service-box{
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+.input-form  {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+
+}
+
+textarea{
+    width: 100%;
+    padding:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+.active{
+    color: rgb(20, 240, 155);
+}
+
+#dark-mode{
+    width: 25px;
+    height: 25px;
+   
+    position: fixed;
+    border-radius: 50%;
+    right: 80px;
+    bottom:40px;
+    
+    transition: .25s;
+   
+}
+
+#dark-mode:hover {
+transform: scale(1.2);
+}
